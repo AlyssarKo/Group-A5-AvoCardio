@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6464BFDA288751A6000E4510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFD9288751A6000E4510 /* AppDelegate.swift */; };
+		6464BFDC288751A6000E4510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFDB288751A6000E4510 /* SceneDelegate.swift */; };
+		6464BFDE288751A6000E4510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFDD288751A6000E4510 /* ViewController.swift */; };
+		6464BFE1288751A6000E4510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6464BFDF288751A6000E4510 /* Main.storyboard */; };
+		6464BFE4288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFE2288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodeld */; };
+		6464BFE6288751AE000E4510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6464BFE5288751AE000E4510 /* Assets.xcassets */; };
+		6464BFE9288751AE000E4510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6464BFE7288751AE000E4510 /* LaunchScreen.storyboard */; };
+		6464BFF4288751B0000E4510 /* Group_A5_AvoCardioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFF3288751B0000E4510 /* Group_A5_AvoCardioTests.swift */; };
+		6464BFFE288751B0000E4510 /* Group_A5_AvoCardioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFFD288751B0000E4510 /* Group_A5_AvoCardioUITests.swift */; };
+		6464C000288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6464BFF0288751B0000E4510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6464BFCE288751A5000E4510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6464BFD5288751A5000E4510;
+			remoteInfo = "Group A5 AvoCardio";
+		};
+		6464BFFA288751B0000E4510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6464BFCE288751A5000E4510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6464BFD5288751A5000E4510;
+			remoteInfo = "Group A5 AvoCardio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6464BFD6288751A6000E4510 /* Group A5 AvoCardio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group A5 AvoCardio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6464BFD9288751A6000E4510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6464BFDB288751A6000E4510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6464BFDD288751A6000E4510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6464BFE0288751A6000E4510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6464BFE3288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Group_A5_AvoCardio.xcdatamodel; sourceTree = "<group>"; };
+		6464BFE5288751AE000E4510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6464BFE8288751AE000E4510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6464BFEA288751AE000E4510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6464BFEF288751B0000E4510 /* Group A5 AvoCardioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Group A5 AvoCardioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6464BFF3288751B0000E4510 /* Group_A5_AvoCardioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioTests.swift; sourceTree = "<group>"; };
+		6464BFF9288751B0000E4510 /* Group A5 AvoCardioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Group A5 AvoCardioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6464BFFD288751B0000E4510 /* Group_A5_AvoCardioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioUITests.swift; sourceTree = "<group>"; };
+		6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6464BFD3288751A5000E4510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6464BFEC288751B0000E4510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6464BFF6288751B0000E4510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6464BFCD288751A5000E4510 = {
+			isa = PBXGroup;
+			children = (
+				6464BFD8288751A6000E4510 /* Group A5 AvoCardio */,
+				6464BFF2288751B0000E4510 /* Group A5 AvoCardioTests */,
+				6464BFFC288751B0000E4510 /* Group A5 AvoCardioUITests */,
+				6464BFD7288751A6000E4510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6464BFD7288751A6000E4510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6464BFD6288751A6000E4510 /* Group A5 AvoCardio.app */,
+				6464BFEF288751B0000E4510 /* Group A5 AvoCardioTests.xctest */,
+				6464BFF9288751B0000E4510 /* Group A5 AvoCardioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6464BFD8288751A6000E4510 /* Group A5 AvoCardio */ = {
+			isa = PBXGroup;
+			children = (
+				6464BFD9288751A6000E4510 /* AppDelegate.swift */,
+				6464BFDB288751A6000E4510 /* SceneDelegate.swift */,
+				6464BFDD288751A6000E4510 /* ViewController.swift */,
+				6464BFDF288751A6000E4510 /* Main.storyboard */,
+				6464BFE5288751AE000E4510 /* Assets.xcassets */,
+				6464BFE7288751AE000E4510 /* LaunchScreen.storyboard */,
+				6464BFEA288751AE000E4510 /* Info.plist */,
+				6464BFE2288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodeld */,
+			);
+			path = "Group A5 AvoCardio";
+			sourceTree = "<group>";
+		};
+		6464BFF2288751B0000E4510 /* Group A5 AvoCardioTests */ = {
+			isa = PBXGroup;
+			children = (
+				6464BFF3288751B0000E4510 /* Group_A5_AvoCardioTests.swift */,
+			);
+			path = "Group A5 AvoCardioTests";
+			sourceTree = "<group>";
+		};
+		6464BFFC288751B0000E4510 /* Group A5 AvoCardioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6464BFFD288751B0000E4510 /* Group_A5_AvoCardioUITests.swift */,
+				6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */,
+			);
+			path = "Group A5 AvoCardioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6464BFD5288751A5000E4510 /* Group A5 AvoCardio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6464C003288751B0000E4510 /* Build configuration list for PBXNativeTarget "Group A5 AvoCardio" */;
+			buildPhases = (
+				6464BFD2288751A5000E4510 /* Sources */,
+				6464BFD3288751A5000E4510 /* Frameworks */,
+				6464BFD4288751A5000E4510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Group A5 AvoCardio";
+			productName = "Group A5 AvoCardio";
+			productReference = 6464BFD6288751A6000E4510 /* Group A5 AvoCardio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6464BFEE288751B0000E4510 /* Group A5 AvoCardioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6464C006288751B0000E4510 /* Build configuration list for PBXNativeTarget "Group A5 AvoCardioTests" */;
+			buildPhases = (
+				6464BFEB288751B0000E4510 /* Sources */,
+				6464BFEC288751B0000E4510 /* Frameworks */,
+				6464BFED288751B0000E4510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6464BFF1288751B0000E4510 /* PBXTargetDependency */,
+			);
+			name = "Group A5 AvoCardioTests";
+			productName = "Group A5 AvoCardioTests";
+			productReference = 6464BFEF288751B0000E4510 /* Group A5 AvoCardioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6464BFF8288751B0000E4510 /* Group A5 AvoCardioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6464C009288751B0000E4510 /* Build configuration list for PBXNativeTarget "Group A5 AvoCardioUITests" */;
+			buildPhases = (
+				6464BFF5288751B0000E4510 /* Sources */,
+				6464BFF6288751B0000E4510 /* Frameworks */,
+				6464BFF7288751B0000E4510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6464BFFB288751B0000E4510 /* PBXTargetDependency */,
+			);
+			name = "Group A5 AvoCardioUITests";
+			productName = "Group A5 AvoCardioUITests";
+			productReference = 6464BFF9288751B0000E4510 /* Group A5 AvoCardioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6464BFCE288751A5000E4510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6464BFD5288751A5000E4510 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6464BFEE288751B0000E4510 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6464BFD5288751A5000E4510;
+					};
+					6464BFF8288751B0000E4510 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6464BFD5288751A5000E4510;
+					};
+				};
+			};
+			buildConfigurationList = 6464BFD1288751A5000E4510 /* Build configuration list for PBXProject "Group A5 AvoCardio" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6464BFCD288751A5000E4510;
+			productRefGroup = 6464BFD7288751A6000E4510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6464BFD5288751A5000E4510 /* Group A5 AvoCardio */,
+				6464BFEE288751B0000E4510 /* Group A5 AvoCardioTests */,
+				6464BFF8288751B0000E4510 /* Group A5 AvoCardioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6464BFD4288751A5000E4510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6464BFE9288751AE000E4510 /* LaunchScreen.storyboard in Resources */,
+				6464BFE6288751AE000E4510 /* Assets.xcassets in Resources */,
+				6464BFE1288751A6000E4510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6464BFED288751B0000E4510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6464BFF7288751B0000E4510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6464BFD2288751A5000E4510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6464BFE4288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodeld in Sources */,
+				6464BFDE288751A6000E4510 /* ViewController.swift in Sources */,
+				6464BFDA288751A6000E4510 /* AppDelegate.swift in Sources */,
+				6464BFDC288751A6000E4510 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6464BFEB288751B0000E4510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6464BFF4288751B0000E4510 /* Group_A5_AvoCardioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6464BFF5288751B0000E4510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6464BFFE288751B0000E4510 /* Group_A5_AvoCardioUITests.swift in Sources */,
+				6464C000288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6464BFF1288751B0000E4510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6464BFD5288751A5000E4510 /* Group A5 AvoCardio */;
+			targetProxy = 6464BFF0288751B0000E4510 /* PBXContainerItemProxy */;
+		};
+		6464BFFB288751B0000E4510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6464BFD5288751A5000E4510 /* Group A5 AvoCardio */;
+			targetProxy = 6464BFFA288751B0000E4510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6464BFDF288751A6000E4510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6464BFE0288751A6000E4510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6464BFE7288751AE000E4510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6464BFE8288751AE000E4510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6464C001288751B0000E4510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6464C002288751B0000E4510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6464C004288751B0000E4510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D824Y3WATU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Group A5 AvoCardio/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Group-A5-AvoCardio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6464C005288751B0000E4510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D824Y3WATU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Group A5 AvoCardio/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Group-A5-AvoCardio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6464C007288751B0000E4510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D824Y3WATU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Group-A5-AvoCardioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Group A5 AvoCardio.app/Group A5 AvoCardio";
+			};
+			name = Debug;
+		};
+		6464C008288751B0000E4510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D824Y3WATU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Group-A5-AvoCardioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Group A5 AvoCardio.app/Group A5 AvoCardio";
+			};
+			name = Release;
+		};
+		6464C00A288751B0000E4510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D824Y3WATU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Group-A5-AvoCardioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Group A5 AvoCardio";
+			};
+			name = Debug;
+		};
+		6464C00B288751B0000E4510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D824Y3WATU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Group-A5-AvoCardioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Group A5 AvoCardio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6464BFD1288751A5000E4510 /* Build configuration list for PBXProject "Group A5 AvoCardio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6464C001288751B0000E4510 /* Debug */,
+				6464C002288751B0000E4510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6464C003288751B0000E4510 /* Build configuration list for PBXNativeTarget "Group A5 AvoCardio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6464C004288751B0000E4510 /* Debug */,
+				6464C005288751B0000E4510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6464C006288751B0000E4510 /* Build configuration list for PBXNativeTarget "Group A5 AvoCardioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6464C007288751B0000E4510 /* Debug */,
+				6464C008288751B0000E4510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6464C009288751B0000E4510 /* Build configuration list for PBXNativeTarget "Group A5 AvoCardioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6464C00A288751B0000E4510 /* Debug */,
+				6464C00B288751B0000E4510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6464BFE2288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6464BFE3288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodel */,
+			);
+			currentVersion = 6464BFE3288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodel */;
+			path = Group_A5_AvoCardio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6464BFCE288751A5000E4510 /* Project object */;
+}
