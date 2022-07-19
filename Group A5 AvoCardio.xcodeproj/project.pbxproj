@@ -17,6 +17,7 @@
 		6464BFF4288751B0000E4510 /* Group_A5_AvoCardioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFF3288751B0000E4510 /* Group_A5_AvoCardioTests.swift */; };
 		6464BFFE288751B0000E4510 /* Group_A5_AvoCardioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFFD288751B0000E4510 /* Group_A5_AvoCardioUITests.swift */; };
 		6464C000288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */; };
+		9042E2F828875DFD00829D00 /* Untitled_Artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042E2F728875DFC00829D00 /* Untitled_Artwork.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6464BFF9288751B0000E4510 /* Group A5 AvoCardioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Group A5 AvoCardioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6464BFFD288751B0000E4510 /* Group_A5_AvoCardioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioUITests.swift; sourceTree = "<group>"; };
 		6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9042E2F728875DFC00829D00 /* Untitled_Artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled_Artwork.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				6464BFDB288751A6000E4510 /* SceneDelegate.swift */,
 				6464BFDD288751A6000E4510 /* ViewController.swift */,
 				6464BFDF288751A6000E4510 /* Main.storyboard */,
+				9042E2F728875DFC00829D00 /* Untitled_Artwork.png */,
 				6464BFE5288751AE000E4510 /* Assets.xcassets */,
 				6464BFE7288751AE000E4510 /* LaunchScreen.storyboard */,
 				6464BFEA288751AE000E4510 /* Info.plist */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6464BFE9288751AE000E4510 /* LaunchScreen.storyboard in Resources */,
+				9042E2F828875DFD00829D00 /* Untitled_Artwork.png in Resources */,
 				6464BFE6288751AE000E4510 /* Assets.xcassets in Resources */,
 				6464BFE1288751A6000E4510 /* Main.storyboard in Resources */,
 			);
