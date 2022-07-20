@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="1223" y="62"/>
         </scene>
-        <!--View Controller-->
+        <!--Page2 View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="Page2ViewController" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,11 +238,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gwp-i0-dhc">
-                                <rect key="frame" x="0.0" y="445" width="414" height="244"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98431372640000003" green="0.98431372640000003" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4f0-G3-Ezb">
                                 <rect key="frame" x="20" y="44" width="82" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -263,7 +258,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="7Ev-qe-8UU"/>
                     <connections>
-                        <outlet property="timeTextField" destination="fWA-5d-E26" id="Dff-PT-OO4"/>
+                        <outlet property="timeTextField" destination="fWA-5d-E26" id="NaE-mI-RDd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v58-u2-eZU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
