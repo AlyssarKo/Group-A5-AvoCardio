@@ -18,6 +18,7 @@
 		6464BFFE288751B0000E4510 /* Group_A5_AvoCardioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFFD288751B0000E4510 /* Group_A5_AvoCardioUITests.swift */; };
 		6464C000288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */; };
 		9042E2F828875DFD00829D00 /* Untitled_Artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042E2F728875DFC00829D00 /* Untitled_Artwork.png */; };
+		A6A3C08B2887BC9900D4C198 /* SetAGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3C08A2887BC9900D4C198 /* SetAGoalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6464BFFD288751B0000E4510 /* Group_A5_AvoCardioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioUITests.swift; sourceTree = "<group>"; };
 		6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9042E2F728875DFC00829D00 /* Untitled_Artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled_Artwork.png; sourceTree = "<group>"; };
+		A6A3C08A2887BC9900D4C198 /* SetAGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAGoalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				6464BFD9288751A6000E4510 /* AppDelegate.swift */,
 				6464BFDB288751A6000E4510 /* SceneDelegate.swift */,
 				6464BFDD288751A6000E4510 /* ViewController.swift */,
+				A6A3C08A2887BC9900D4C198 /* SetAGoalViewController.swift */,
 				6464BFDF288751A6000E4510 /* Main.storyboard */,
 				9042E2F728875DFC00829D00 /* Untitled_Artwork.png */,
 				6464BFE5288751AE000E4510 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 				6464BFE4288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodeld in Sources */,
 				6464BFDE288751A6000E4510 /* ViewController.swift in Sources */,
 				6464BFDA288751A6000E4510 /* AppDelegate.swift in Sources */,
+				A6A3C08B2887BC9900D4C198 /* SetAGoalViewController.swift in Sources */,
 				6464BFDC288751A6000E4510 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
