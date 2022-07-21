@@ -4,13 +4,13 @@
 //
 //  Created by Alyssa Ko '23 on 7/20/22.
 //
-
-import UIKit
-
-class CustomTableViewCell: UITableViewCell {
-    @IBOutlet weak var iconImageView: UIImageView!
-    @IBOutlet weak var label: UILabel!
-}
+//
+//import UIKit
+//
+//class CustomTableViewCell: UITableViewCell {
+//    @IBOutlet weak var iconImageView: UIImageView!
+//    @IBOutlet weak var label: UILabel!
+//}
 
 //    override func awakeFromNib() {
 //        super.awakeFromNib()
