@@ -271,7 +271,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v58-u2-eZU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2362.3188405797105" y="-660.26785714285711"/>
+            <point key="canvasLocation" x="2126" y="-660"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wdh-8Z-Wan">
@@ -310,7 +310,7 @@
         <scene sceneID="wWb-hA-PLr">
             <objects>
                 <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="F1J-Ti-VCC" customClass="TimerView" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vZg-ac-nQL">
+                    <view key="view" contentMode="scaleToFill" id="vZg-ac-nQL" customClass="ContentView" customModule="Group_A5_AvoCardio" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -375,6 +375,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Ie3-6s-8Xm"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EUJ-zO-kow" customClass="ContentView" customModule="Group_A5_AvoCardio" customModuleProvider="target">
+                                <rect key="frame" x="57" y="663" width="307" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q1h-1Y-8NI"/>
                         <color key="backgroundColor" red="0.87450981139999995" green="0.96862745289999996" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -386,11 +390,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdw-Mn-h31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4295.652173913044" y="-660.26785714285711"/>
+            <point key="canvasLocation" x="3229" y="-660"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Qs8-3o-Yur"/>
+        <segue reference="Ie3-6s-8Xm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled_Artwork.png" width="2360" height="1640"/>
