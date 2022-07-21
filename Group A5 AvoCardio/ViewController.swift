@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var pitButton: UIButton!
+@IBOutlet weak var pitButton: UIButton!
     override func viewDidLoad() {
         
         super.viewDidLoad()

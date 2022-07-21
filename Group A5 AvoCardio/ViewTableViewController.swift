@@ -7,25 +7,43 @@
 
 import UIKit
 
-class ViewTableViewController: UIViewController {
-    @Outlet weak var table: UITableView!
+class ViewTableViewController: UIViewController, UITableViewDataSource {
     
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet weak var table: UITableView!
+    
+    
+    struct workoutImages {
+        let title: String
+        let imageName: String
+    }
+    let data: [workoutImages] = [
+        workoutImages(title: "High Knees", imageName: "highKneesImage"),
+        workoutImages(title: "Push Ups", imageName: "pushupsImage"),
+        workoutImages(title: "Sit Ups", imageName: "situpsImage"),
+     
+    ]
+   override func viewDidLoad() {
+      super.viewDidLoad()
+       table.dataSource = self
+   }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    
+        let workoutImages = data[indexPath.row]
+        
+        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
+        
+        cell.label.text = workoutImages.title
+        cell.iconImageView.image = UIImage(named: workoutImages.imageName)
+        return cell
+        
+//        // Do any additional setup after loading the view.
+   }
+//
+//
 }
