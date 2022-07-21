@@ -84,7 +84,7 @@
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="F1J-Ti-VCC" kind="show" id="sJK-Vk-UBv"/>
+                                    <segue destination="bQ8-3f-2oJ" kind="show" id="Hqg-zO-3jH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Rq-8q-Yir">
@@ -125,13 +125,6 @@
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="START" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITc-Zo-brK">
-                                <rect key="frame" x="158" y="468" width="98" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.85088831190000003" green="0.97277730699999998" blue="0.77057474849999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -271,7 +264,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v58-u2-eZU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2126" y="-660"/>
+            <point key="canvasLocation" x="1648" y="-660"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wdh-8Z-Wan">
@@ -382,15 +375,38 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q1h-1Y-8NI"/>
                         <color key="backgroundColor" red="0.87450981139999995" green="0.96862745289999996" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <connections>
+                            <outlet property="timer" destination="EUJ-zO-kow" id="wkh-uc-Er2"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="Eei-yC-Sgb"/>
                     <connections>
                         <outlet property="imageView" destination="Z7M-gx-rx1" id="GRm-Ue-Tff"/>
+                        <outlet property="timer" destination="EUJ-zO-kow" id="gRM-1j-HY1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdw-Mn-h31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3229" y="-660"/>
+            <point key="canvasLocation" x="2583" y="-660"/>
+        </scene>
+        <!--Content View-->
+        <scene sceneID="Hti-iV-hpn">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="bQ8-3f-2oJ" customClass="ContentView" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CfB-AP-AkQ" customClass="ContentView" customModule="Group_A5_AvoCardio" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ERt-m9-I5f"/>
+                        <color key="backgroundColor" red="0.85088831190000003" green="0.97277730699999998" blue="0.77057474849999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" button="YES" image="YES" staticText="YES" adjustable="YES" allowsDirectInteraction="YES"/>
+                        </accessibility>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lxf-xn-npL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="peO-FZ-rcG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3374" y="-660"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

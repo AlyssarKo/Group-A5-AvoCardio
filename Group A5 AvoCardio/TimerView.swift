@@ -9,7 +9,7 @@ import UIKit
 
 class TimerView: UIViewController {
 
-
+    
 @IBOutlet weak var imageView: UIImageView!
 override func viewDidLoad() {
     super.viewDidLoad()
@@ -17,5 +17,6 @@ override func viewDidLoad() {
     let highKneesGif = UIImage.gifImageWithName("highKneesGif")
     imageView.image = highKneesGif
     }
+    
 }
 
