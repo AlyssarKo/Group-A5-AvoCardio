@@ -362,11 +362,79 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Ie3-6s-8Xm"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jLt-hK-8iV">
+                                <rect key="frame" x="40" y="587" width="334" height="235"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Kp-5s-1JL">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                                        <connections>
+                                            <action selector="startButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="Kx8-VT-K0M"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fp-ez-O8S">
+                                        <rect key="frame" x="0.0" y="51" width="334" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Pause"/>
+                                        <connections>
+                                            <action selector="pauseButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="O0P-wH-GgG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhV-py-vCg">
+                                        <rect key="frame" x="0.0" y="102" width="334" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Reset"/>
+                                        <connections>
+                                            <action selector="resetButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="jZr-aL-FVh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lee-OF-7Iz">
+                                        <rect key="frame" x="0.0" y="153" width="334" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="+5"/>
+                                        <connections>
+                                            <action selector="addSeconds:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="aTt-ib-liQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbO-SS-1E4">
+                                        <rect key="frame" x="0.0" y="204" width="334" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="-5"/>
+                                        <connections>
+                                            <action selector="minusSeconds:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="pzR-2Y-Ts0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="15:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNL-mM-IHX">
+                                <rect key="frame" x="144.5" y="457" width="125" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="rAu-nD-jSO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q1h-1Y-8NI"/>
                         <color key="backgroundColor" red="0.87450981139999995" green="0.96862745289999996" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="jLt-hK-8iV" firstAttribute="leading" secondItem="q1h-1Y-8NI" secondAttribute="leading" constant="40" id="61x-9i-mJp"/>
+                            <constraint firstItem="q1h-1Y-8NI" firstAttribute="bottom" secondItem="jLt-hK-8iV" secondAttribute="bottom" constant="40" id="C2y-RC-wu0"/>
+                            <constraint firstItem="ZNL-mM-IHX" firstAttribute="centerX" secondItem="vZg-ac-nQL" secondAttribute="centerX" id="IDb-kn-fts"/>
+                            <constraint firstItem="q1h-1Y-8NI" firstAttribute="trailing" secondItem="jLt-hK-8iV" secondAttribute="trailing" constant="40" id="tEQ-bs-O6O"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Eei-yC-Sgb"/>
+                    <connections>
+                        <outlet property="addSeconds" destination="Lee-OF-7Iz" id="jJE-Lv-4hq"/>
+                        <outlet property="minusSeconds" destination="XbO-SS-1E4" id="3ml-Sw-qZD"/>
+                        <outlet property="pauseButton" destination="FhV-py-vCg" id="May-Je-ZcS"/>
+                        <outlet property="resetButton" destination="FhV-py-vCg" id="Ap6-Nl-Ht6"/>
+                        <outlet property="startButton" destination="vZg-ac-nQL" id="Hgs-pK-USG"/>
+                        <outlet property="timerLabel" destination="ZNL-mM-IHX" id="TLC-ej-eCS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdw-Mn-h31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -393,7 +461,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wA7-a7-xa3"/>
+        <segue reference="i4o-7N-okZ"/>
         <segue reference="v8C-BU-aj1"/>
         <segue reference="Ie3-6s-8Xm"/>
     </inferredMetricsTieBreakers>
