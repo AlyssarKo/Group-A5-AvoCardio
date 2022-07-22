@@ -196,10 +196,10 @@
             </objects>
             <point key="canvasLocation" x="1647.826086956522" y="-660.26785714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Timer View3 View Controller-->
         <scene sceneID="dLt-Cz-Dj7">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="a0h-Py-rx1" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="a0h-Py-rx1" customClass="TimerView3ViewController" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hxu-f8-hbq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -247,6 +247,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Start"/>
                                         <connections>
                                             <action selector="startButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="6pa-Yv-Vby"/>
+                                            <action selector="startButton:" destination="a0h-Py-rx1" eventType="touchUpInside" id="YXB-ZT-TUi"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdi-GO-DSQ">
@@ -255,6 +256,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Pause"/>
                                         <connections>
                                             <action selector="pauseButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="a1c-SY-gez"/>
+                                            <action selector="pauseButton:" destination="a0h-Py-rx1" eventType="touchUpInside" id="c35-QE-J5b"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kON-Q9-eDf">
@@ -263,6 +265,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Reset"/>
                                         <connections>
                                             <action selector="resetButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="HUd-0M-ljv"/>
+                                            <action selector="resetButton:" destination="a0h-Py-rx1" eventType="touchUpInside" id="gNO-mK-D42"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74S-H2-zU6">
@@ -270,6 +273,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="+5"/>
                                         <connections>
+                                            <action selector="addSeconds:" destination="a0h-Py-rx1" eventType="touchUpInside" id="5h7-Th-F5A"/>
                                             <action selector="addSeconds:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="vD9-Dt-zYu"/>
                                         </connections>
                                     </button>
@@ -279,6 +283,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="-5"/>
                                         <connections>
                                             <action selector="minusSeconds:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="9IM-mk-Gzo"/>
+                                            <action selector="minusSeconds:" destination="a0h-Py-rx1" eventType="touchUpInside" id="bNu-aE-ldq"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -316,6 +321,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ERu-XU-MG1"/>
+                    <connections>
+                        <outlet property="addSeconds" destination="74S-H2-zU6" id="1QJ-RE-4Sz"/>
+                        <outlet property="imageView" destination="LbN-mk-SaZ" id="J3A-VR-YIW"/>
+                        <outlet property="minusSeconds" destination="Q1K-qp-PSY" id="YBa-Ag-W47"/>
+                        <outlet property="pauseButton" destination="Sdi-GO-DSQ" id="kR5-t1-HE2"/>
+                        <outlet property="resetButton" destination="kON-Q9-eDf" id="q0t-1W-fVP"/>
+                        <outlet property="startButton" destination="UiO-KE-pM0" id="lkj-Dd-l9z"/>
+                        <outlet property="timerLabel" destination="yHe-5u-50Y" id="idU-le-Fbq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Gv-vM-00A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -502,10 +516,10 @@
             </objects>
             <point key="canvasLocation" x="2501" y="-1336"/>
         </scene>
-        <!--View Controller-->
+        <!--Timer View2 View Controller-->
         <scene sceneID="Z6x-PW-3nh">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="zlO-or-B8k" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="zlO-or-B8k" customClass="TimerView2ViewController" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yb5-W5-De1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -575,6 +589,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Start"/>
                                         <connections>
+                                            <action selector="startButton:" destination="zlO-or-B8k" eventType="touchUpInside" id="emr-uc-yAm"/>
                                             <action selector="startButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="fzm-uj-j7h"/>
                                         </connections>
                                     </button>
@@ -583,6 +598,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Pause"/>
                                         <connections>
+                                            <action selector="pauseButton:" destination="zlO-or-B8k" eventType="touchUpInside" id="U5k-85-iNo"/>
                                             <action selector="pauseButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="c0j-vg-tgj"/>
                                         </connections>
                                     </button>
@@ -592,6 +608,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Reset"/>
                                         <connections>
                                             <action selector="resetButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="Cxe-KN-goG"/>
+                                            <action selector="resetButton:" destination="zlO-or-B8k" eventType="touchUpInside" id="Spr-wR-NyO"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2y-ox-oJZ">
@@ -600,6 +617,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="+5"/>
                                         <connections>
                                             <action selector="addSeconds:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="6Oa-ol-Iet"/>
+                                            <action selector="addSeconds:" destination="zlO-or-B8k" eventType="touchUpInside" id="Z7l-rb-VBh"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdg-Ak-6P2">
@@ -608,6 +626,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="-5"/>
                                         <connections>
                                             <action selector="minusSeconds:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="1om-cm-D19"/>
+                                            <action selector="minusSeconds:" destination="zlO-or-B8k" eventType="touchUpInside" id="c1J-iR-SHD"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -621,6 +640,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Osl-bk-8nL"/>
+                    <connections>
+                        <outlet property="addSeconds" destination="b2y-ox-oJZ" id="UIk-qe-wmW"/>
+                        <outlet property="imageView" destination="av9-Me-Mup" id="G3V-OQ-V0X"/>
+                        <outlet property="minusSeconds" destination="mdg-Ak-6P2" id="Brk-4W-tab"/>
+                        <outlet property="pauseButton" destination="Umo-f1-u64" id="MQZ-CH-ZHk"/>
+                        <outlet property="resetButton" destination="zrK-yd-zSK" id="cQj-PW-dC5"/>
+                        <outlet property="startButton" destination="Kie-V9-LuA" id="mjh-v1-MZl"/>
+                        <outlet property="timerLabel" destination="YYS-yH-JJ3" id="ieq-aw-3GJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1k4-uV-3b1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -647,8 +675,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="v8C-BU-aj1"/>
-        <segue reference="Ie3-6s-8Xm"/>
+        <segue reference="v7H-ra-byP"/>
+        <segue reference="Qs8-3o-Yur"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled_Artwork.png" width="2360" height="1640"/>

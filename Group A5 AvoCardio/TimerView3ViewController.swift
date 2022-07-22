@@ -1,14 +1,14 @@
 //
-//  TimerView2ViewController.swift
+//  TimerView3ViewController.swift
 //  Group A5 AvoCardio
 //
-//  Created by Alyssa Ko '23 on 7/21/22.
+//  Created by Alyssa Ko '23 on 7/22/22.
 //
 
 import UIKit
 
-class TimerView2ViewController: UIViewController {
-
+class TimerView3ViewController: UIViewController {
+    
     @IBOutlet weak var timerLabel: UILabel!
     
     @IBOutlet weak var startButton: UIButton!
@@ -68,8 +68,8 @@ class TimerView2ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-                let pushups = UIImage.gifImageWithName("pushups")
-                imageView.image = pushups
+                let situps = UIImage.gifImageWithName("situps")
+                imageView.image = situps
 
     
     
@@ -82,18 +82,4 @@ class TimerView2ViewController: UIViewController {
 
 }
 
-//        // Do any additional setup after loading the view.
-//    }
-//
-//
-//    /*
-//    // MARK: - Navigation
-//
-//    // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        // Get the new view controller using segue.destination.
-//        // Pass the selected object to the new view controller.
-//    }
-//    */
-//
-//}
+ 
