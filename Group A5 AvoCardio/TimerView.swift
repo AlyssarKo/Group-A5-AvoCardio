@@ -21,7 +21,7 @@ override func viewDidLoad() {
     {
         timer.invalidate()
         
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.timerClass), userInfo:nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(TimerView.timerClass), userInfo:nil, repeats: true)
     }
     
     @IBAction func pauseButton(_ sender: Any)
@@ -45,20 +45,24 @@ override func viewDidLoad() {
         timerLabel.text = String(seconds)
     }
     
-        @objc func timerClass()
-    
+    @objc func timerClass()
+
     {
         seconds -= 1
         timerLabel.text = String(seconds)
-        
+
         if(seconds == 0)
         {
             timer.invalidate()
         }
     }
     
-    let highKneesGif = UIImage.gifImageWithName("highKneesGif")
-    imageView.image = highKneesGif
+
+    
+    
+//    let highKneesGif = UIImage.gifImageWithName("highKneesGif")
+//    imageView.image = highKneesGif
+    
     }
     
 
