@@ -45,7 +45,7 @@
                                         <fragment content="START">
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="34" name="ArialRoundedMTBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -195,39 +195,6 @@
             </objects>
             <point key="canvasLocation" x="1647.826086956522" y="-660.26785714285711"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Wdh-8Z-Wan">
-            <objects>
-                <viewController id="ssk-Tx-lZl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ycx-tV-TM8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6C-ue-thA">
-                                <rect key="frame" x="121" y="44" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUr-rZ-uck">
-                                <rect key="frame" x="91" y="184" width="214" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="rectangle.fill" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="76"/>
-                                    <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="uPa-yW-kAh"/>
-                        <color key="backgroundColor" red="0.85009568930000001" green="0.97274059059999995" blue="0.76889723539999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vZ9-vi-kzc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4678" y="179"/>
-        </scene>
         <!--Timer View-->
         <scene sceneID="wWb-hA-PLr">
             <objects>
@@ -274,12 +241,14 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jLt-hK-8iV">
-                                <rect key="frame" x="40" y="587" width="334" height="235"/>
+                                <rect key="frame" x="40" y="584" width="334" height="238"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Kp-5s-1JL">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="play.fill" catalog="system">
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="startButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="Kx8-VT-K0M"/>
                                         </connections>
@@ -287,39 +256,68 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fp-ez-O8S">
                                         <rect key="frame" x="0.0" y="51" width="334" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Pause"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="pause.fill" catalog="system">
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="pauseButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="O0P-wH-GgG"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhV-py-vCg">
-                                        <rect key="frame" x="0.0" y="102" width="334" height="31"/>
+                                        <rect key="frame" x="0.0" y="102" width="334" height="35"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Reset"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Reset">
+                                                    <attributes>
+                                                        <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="resetButton:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="jZr-aL-FVh"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lee-OF-7Iz">
-                                        <rect key="frame" x="0.0" y="153" width="334" height="31"/>
+                                        <rect key="frame" x="0.0" y="157" width="334" height="30.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="+5"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="+5">
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="addSeconds:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="aTt-ib-liQ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbO-SS-1E4">
-                                        <rect key="frame" x="0.0" y="204" width="334" height="31"/>
+                                        <rect key="frame" x="0.0" y="207.5" width="334" height="30.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="-5"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="-5">
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="minusSeconds:" destination="F1J-Ti-VCC" eventType="touchUpInside" id="pzR-2Y-Ts0"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNL-mM-IHX">
-                                <rect key="frame" x="159.5" y="378.5" width="95" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNL-mM-IHX">
+                                <rect key="frame" x="160" y="339" width="95" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="rAu-nD-jSO"/>
                                 </constraints>
@@ -341,7 +339,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9E6-JD-fSR">
-                                <rect key="frame" x="87" y="437" width="240" height="128"/>
+                                <rect key="frame" x="51" y="407" width="329" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -374,26 +372,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdw-Mn-h31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2500" y="-1336.6071428571429"/>
-        </scene>
-        <!--Content View-->
-        <scene sceneID="Hti-iV-hpn">
-            <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="bQ8-3f-2oJ" customClass="ContentView" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CfB-AP-AkQ" customClass="ContentView" customModule="Group_A5_AvoCardio" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="ERt-m9-I5f"/>
-                        <color key="backgroundColor" red="0.85088831190000003" green="0.97277730699999998" blue="0.77057474849999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <accessibility key="accessibilityConfiguration">
-                            <accessibilityTraits key="traits" button="YES" image="YES" staticText="YES" adjustable="YES" allowsDirectInteraction="YES"/>
-                        </accessibility>
-                    </view>
-                    <navigationItem key="navigationItem" id="Lxf-xn-npL"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="peO-FZ-rcG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4813" y="-534"/>
+            <point key="canvasLocation" x="2498.5507246376815" y="-1336.6071428571429"/>
         </scene>
         <!--Timer View2 View Controller-->
         <scene sceneID="dII-x7-oXw">
@@ -441,12 +420,14 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1ze-31-vSK">
-                                <rect key="frame" x="40" y="587" width="334" height="235"/>
+                                <rect key="frame" x="40" y="588.5" width="334" height="233.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9X-Yx-oGb">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="play.fill" catalog="system">
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="startButton:" destination="Yro-Ou-Tb1" eventType="touchUpInside" id="oa2-Ga-qcX"/>
                                         </connections>
@@ -454,39 +435,68 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCd-Bw-sWh">
                                         <rect key="frame" x="0.0" y="51" width="334" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Pause"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="pause.fill" catalog="system">
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="pauseButton:" destination="Yro-Ou-Tb1" eventType="touchUpInside" id="XwU-D3-611"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CO5-w1-AyE">
-                                        <rect key="frame" x="0.0" y="102" width="334" height="31"/>
+                                        <rect key="frame" x="0.0" y="102" width="334" height="30.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Reset"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Reset">
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="resetButton:" destination="Yro-Ou-Tb1" eventType="touchUpInside" id="qdi-lB-fuR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQg-GR-4XA">
-                                        <rect key="frame" x="0.0" y="153" width="334" height="31"/>
+                                        <rect key="frame" x="0.0" y="152.5" width="334" height="30.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="+5"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="+5">
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="addSeconds:" destination="Yro-Ou-Tb1" eventType="touchUpInside" id="s7z-5R-CMz"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyR-Zb-fiu">
-                                        <rect key="frame" x="0.0" y="204" width="334" height="31"/>
+                                        <rect key="frame" x="0.0" y="203" width="334" height="30.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="-5"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="-5">
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="minusSeconds:" destination="Yro-Ou-Tb1" eventType="touchUpInside" id="KU2-SU-aLU"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSW-CS-uSj">
-                                <rect key="frame" x="159.5" y="378.5" width="95" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSW-CS-uSj">
+                                <rect key="frame" x="160" y="343" width="95" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="XJq-O8-k5g"/>
                                 </constraints>
@@ -508,7 +518,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UTa-sG-qVY">
-                                <rect key="frame" x="87" y="437" width="240" height="128"/>
+                                <rect key="frame" x="26" y="375" width="362" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -541,7 +551,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UIr-fQ-n1j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3396" y="-978"/>
+            <point key="canvasLocation" x="3395.652173913044" y="-978.34821428571422"/>
         </scene>
         <!--Timer View3 View Controller-->
         <scene sceneID="1sz-c1-Qd9">
@@ -589,12 +599,14 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="s6N-oA-WnJ">
-                                <rect key="frame" x="40" y="587" width="334" height="235"/>
+                                <rect key="frame" x="40" y="588.5" width="334" height="233.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7z-Bi-fq8">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="play.fill" catalog="system">
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="startButton:" destination="VCp-fo-qgv" eventType="touchUpInside" id="8w0-q8-ntn"/>
                                         </connections>
@@ -602,39 +614,68 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wvd-3X-Jks">
                                         <rect key="frame" x="0.0" y="51" width="334" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Pause"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="pause.fill" catalog="system">
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="pauseButton:" destination="VCp-fo-qgv" eventType="touchUpInside" id="QkB-Uu-GY1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RV8-pf-Tn8">
-                                        <rect key="frame" x="0.0" y="102" width="334" height="31"/>
+                                        <rect key="frame" x="0.0" y="102" width="334" height="30.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Reset"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Reset">
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="resetButton:" destination="VCp-fo-qgv" eventType="touchUpInside" id="DB1-vj-Z8h"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIx-hl-eOw">
-                                        <rect key="frame" x="0.0" y="153" width="334" height="31"/>
+                                        <rect key="frame" x="0.0" y="152.5" width="334" height="30.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="+5"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="+5">
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="addSeconds:" destination="VCp-fo-qgv" eventType="touchUpInside" id="Q8K-Kw-hVQ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qld-ys-Hmr">
-                                        <rect key="frame" x="0.0" y="204" width="334" height="31"/>
+                                        <rect key="frame" x="0.0" y="203" width="334" height="30.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="-5"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="-5">
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="minusSeconds:" destination="VCp-fo-qgv" eventType="touchUpInside" id="BfU-cD-0RS"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5B-nU-iLt">
-                                <rect key="frame" x="159.5" y="378.5" width="95" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5B-nU-iLt">
+                                <rect key="frame" x="160" y="326" width="95" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="wu4-0B-3YI"/>
                                 </constraints>
@@ -656,7 +697,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8vp-BP-mK1">
-                                <rect key="frame" x="87" y="437" width="240" height="128"/>
+                                <rect key="frame" x="40" y="394" width="354" height="217"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -693,7 +734,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="v7H-ra-byP"/>
+        <segue reference="v8C-BU-aj1"/>
         <segue reference="Ie3-6s-8Xm"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -701,6 +742,8 @@
         <image name="arrowshape.turn.up.left.circle.fill" catalog="system" width="128" height="121"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="house.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="pause.fill" catalog="system" width="116" height="128"/>
+        <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="rectangle.fill" catalog="system" width="128" height="93"/>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
