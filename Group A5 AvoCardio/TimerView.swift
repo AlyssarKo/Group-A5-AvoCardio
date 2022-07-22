@@ -1,7 +1,6 @@
 import UIKit
 
-class TimerView: UIViewController
-{
+class TimerView: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     
     @IBOutlet weak var startButton: UIButton!
@@ -13,10 +12,10 @@ class TimerView: UIViewController
     var timer = Timer()
     var seconds = 60
     
-@IBOutlet weak var imageView: UIImageView!
-override func viewDidLoad() {
-    super.viewDidLoad()
-}
+//@IBOutlet weak var imageView: UIImageView!
+//override func viewDidLoad() {
+//    super.viewDidLoad()
+//}
     @IBAction func startButton(_ sender: Any)
     {
         timer.invalidate()
@@ -55,8 +54,14 @@ override func viewDidLoad() {
         {
             timer.invalidate()
         }
+//        let highKneesGif = UIImage.gifImageWithName("highKneesGif")
+//        imageView.image = highKneesGif
     }
-    
+    @IBOutlet weak var imageView: UIImageView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+                let highKneesGif = UIImage.gifImageWithName("highKneesGif")
+                imageView.image = highKneesGif
 
     
     
@@ -67,3 +72,4 @@ override func viewDidLoad() {
     
 
 
+}

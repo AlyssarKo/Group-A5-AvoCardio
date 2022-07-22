@@ -414,6 +414,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Ie3-6s-8Xm"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9E6-JD-fSR">
+                                <rect key="frame" x="87" y="437" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q1h-1Y-8NI"/>
                         <color key="backgroundColor" red="0.87450981139999995" green="0.96862745289999996" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -434,6 +438,7 @@
                     <navigationItem key="navigationItem" id="Eei-yC-Sgb"/>
                     <connections>
                         <outlet property="addSeconds" destination="Lee-OF-7Iz" id="jJE-Lv-4hq"/>
+                        <outlet property="imageView" destination="9E6-JD-fSR" id="6r7-Fa-rAJ"/>
                         <outlet property="minusSeconds" destination="XbO-SS-1E4" id="3ml-Sw-qZD"/>
                         <outlet property="pauseButton" destination="FhV-py-vCg" id="May-Je-ZcS"/>
                         <outlet property="resetButton" destination="FhV-py-vCg" id="Ap6-Nl-Ht6"/>
