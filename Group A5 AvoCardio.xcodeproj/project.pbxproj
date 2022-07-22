@@ -69,7 +69,7 @@
 		6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6464C0102887F886000E4510 /* GifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoader.swift; sourceTree = "<group>"; };
 		9017ACED2889B80D0031CCC3 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		9017ACEF2889B8230031CCC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9017ACEF2889B8230031CCC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Group A5 AvoCardio/ContentView.swift"; sourceTree = SOURCE_ROOT; };
 		9042E2F728875DFC00829D00 /* Untitled_Artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled_Artwork.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
