@@ -35,25 +35,24 @@
                                 <rect key="frame" x="-371" y="-52" width="1202" height="1025"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veo-rC-Xvt">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="veo-rC-Xvt">
                                 <rect key="frame" x="132" y="415" width="151" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.44259202479999998" green="0.2119337916" blue="0.12892100209999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="circle.fill" catalog="system"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" backgroundImage="circle.fill" catalog="system">
                                     <attributedString key="attributedTitle">
                                         <fragment content="START">
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="30" name="ArialRoundedMTBold"/>
+                                                <font key="NSFont" size="34" name="ArialRoundedMTBold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="ipH-rJ-BFj" kind="show" id="v7H-ra-byP"/>
                                 </connections>
@@ -69,7 +68,7 @@
                                 <rect key="frame" x="44" y="679" width="325" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="your favorite fitness friend!">
+                                    <fragment content="Your favorite fitness friend!">
                                         <attributes>
                                             <font key="NSFont" size="47" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -240,9 +239,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptz-9Y-MQn">
                                 <rect key="frame" x="34" y="140" width="346" height="47.5"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Set the timer">
+                                    <fragment content="Start Workout!">
                                         <attributes>
-                                            <font key="NSFont" size="50" name="ArialRoundedMTBold"/>
+                                            <font key="NSFont" size="49" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -250,7 +249,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fju-nN-6xP">
-                                <rect key="frame" x="115" y="272" width="184" height="47.5"/>
+                                <rect key="frame" x="115" y="271" width="184" height="47.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="TIMER">
                                         <attributes>
@@ -320,7 +319,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNL-mM-IHX">
-                                <rect key="frame" x="159.5" y="379.5" width="95" height="60"/>
+                                <rect key="frame" x="159.5" y="378.5" width="95" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="rAu-nD-jSO"/>
                                 </constraints>
@@ -375,7 +374,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdw-Mn-h31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2501" y="-1336"/>
+            <point key="canvasLocation" x="2500" y="-1336.6071428571429"/>
         </scene>
         <!--Content View-->
         <scene sceneID="Hti-iV-hpn">
@@ -407,9 +406,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lK8-vZ-FWz">
                                 <rect key="frame" x="34" y="140" width="346" height="47.5"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Set the timer">
+                                    <fragment content="Start Workout!">
                                         <attributes>
-                                            <font key="NSFont" size="50" name="ArialRoundedMTBold"/>
+                                            <font key="NSFont" size="49" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -417,7 +416,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dho-hq-YUI">
-                                <rect key="frame" x="115" y="272" width="184" height="47.5"/>
+                                <rect key="frame" x="115" y="271" width="184" height="47.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="TIMER">
                                         <attributes>
@@ -487,7 +486,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSW-CS-uSj">
-                                <rect key="frame" x="159.5" y="379.5" width="95" height="60"/>
+                                <rect key="frame" x="159.5" y="378.5" width="95" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="XJq-O8-k5g"/>
                                 </constraints>
@@ -555,9 +554,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G96-Ws-vis">
                                 <rect key="frame" x="34" y="140" width="346" height="47.5"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Set the timer">
+                                    <fragment content="Start Workout!">
                                         <attributes>
-                                            <font key="NSFont" size="50" name="ArialRoundedMTBold"/>
+                                            <font key="NSFont" size="49" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -565,7 +564,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5g-bW-iiM">
-                                <rect key="frame" x="115" y="272" width="184" height="47.5"/>
+                                <rect key="frame" x="115" y="271" width="184" height="47.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="TIMER">
                                         <attributes>
@@ -635,7 +634,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5B-nU-iLt">
-                                <rect key="frame" x="159.5" y="379.5" width="95" height="60"/>
+                                <rect key="frame" x="159.5" y="378.5" width="95" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="wu4-0B-3YI"/>
                                 </constraints>
@@ -694,8 +693,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QEF-bS-uOk"/>
-        <segue reference="Dga-K6-INh"/>
+        <segue reference="v7H-ra-byP"/>
+        <segue reference="Ie3-6s-8Xm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled_Artwork.png" width="2360" height="1640"/>
