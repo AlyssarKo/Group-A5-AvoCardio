@@ -181,6 +181,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="VCp-fo-qgv" kind="show" id="2uo-hm-qIM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MaD-XM-7p3"/>
@@ -393,10 +396,10 @@
             </objects>
             <point key="canvasLocation" x="4813" y="-534"/>
         </scene>
-        <!--Timer View-->
+        <!--Timer View2 View Controller-->
         <scene sceneID="dII-x7-oXw">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Yro-Ou-Tb1" customClass="TimerView" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Yro-Ou-Tb1" customClass="TimerView2ViewController" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eCi-h1-AfF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -434,6 +437,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="38" scale="large"/>
                                     <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ipH-rJ-BFj" kind="show" id="q7f-kw-nki"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1ze-31-vSK">
                                 <rect key="frame" x="40" y="587" width="334" height="235"/>
@@ -498,6 +504,9 @@
                                     <backgroundConfiguration key="background" image="house.circle.fill" catalog="system"/>
                                     <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="due-gv-iXO"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UTa-sG-qVY">
                                 <rect key="frame" x="87" y="437" width="240" height="128"/>
@@ -535,10 +544,10 @@
             </objects>
             <point key="canvasLocation" x="3396" y="-978"/>
         </scene>
-        <!--Timer View-->
+        <!--Timer View3 View Controller-->
         <scene sceneID="1sz-c1-Qd9">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="VCp-fo-qgv" customClass="TimerView" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="VCp-fo-qgv" customClass="TimerView3ViewController" customModule="Group_A5_AvoCardio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="axg-hA-Qwu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -576,6 +585,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="38" scale="large"/>
                                     <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ipH-rJ-BFj" kind="show" id="QEF-bS-uOk"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="s6N-oA-WnJ">
                                 <rect key="frame" x="40" y="587" width="334" height="235"/>
@@ -640,6 +652,9 @@
                                     <backgroundConfiguration key="background" image="house.circle.fill" catalog="system"/>
                                     <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Dga-K6-INh"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8vp-BP-mK1">
                                 <rect key="frame" x="87" y="437" width="240" height="128"/>
@@ -675,13 +690,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gAa-Y3-gvi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2657" y="-303"/>
+            <point key="canvasLocation" x="2656.521739130435" y="-303.34821428571428"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RCM-oK-Rej"/>
-        <segue reference="v8C-BU-aj1"/>
-        <segue reference="Qs8-3o-Yur"/>
+        <segue reference="QEF-bS-uOk"/>
+        <segue reference="Dga-K6-INh"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled_Artwork.png" width="2360" height="1640"/>
