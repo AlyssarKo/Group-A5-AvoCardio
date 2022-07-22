@@ -84,7 +84,7 @@
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="bQ8-3f-2oJ" kind="show" id="Hqg-zO-3jH"/>
+                                    <segue destination="F1J-Ti-VCC" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="i4o-7N-okZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Rq-8q-Yir">
@@ -226,15 +226,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYD-zM-ar0">
-                                <rect key="frame" x="309" y="806" width="96" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrow.right" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="48"/>
-                                    <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jj-fI-imX">
                                 <rect key="frame" x="57" y="516" width="300" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -254,6 +245,18 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYD-zM-ar0">
+                                <rect key="frame" x="309" y="791" width="96" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.right" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="48"/>
+                                    <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="F1J-Ti-VCC" kind="presentation" modalPresentationStyle="fullScreen" id="wA7-a7-xa3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MaD-XM-7p3"/>
@@ -333,18 +336,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0Ax-4C-rxy">
-                                <rect key="frame" x="145" y="375" width="131" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Start"/>
-                                    <segment title="Stop"/>
-                                </segments>
-                            </segmentedControl>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z7M-gx-rx1">
-                                <rect key="frame" x="57" y="466" width="307" height="189"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSq-6J-Qjg">
                                 <rect key="frame" x="0.0" y="24" width="82" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -354,6 +345,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="38" scale="large"/>
                                     <color key="baseForegroundColor" red="1" green="0.49853456019999998" blue="0.48261076209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ipH-rJ-BFj" kind="presentation" modalPresentationStyle="fullScreen" id="v8C-BU-aj1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vnd-MW-jIC">
                                 <rect key="frame" x="322" y="801" width="81" height="79"/>
@@ -368,22 +362,11 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Ie3-6s-8Xm"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EUJ-zO-kow" customClass="ContentView" customModule="Group_A5_AvoCardio" customModuleProvider="target">
-                                <rect key="frame" x="57" y="663" width="307" height="143"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q1h-1Y-8NI"/>
                         <color key="backgroundColor" red="0.87450981139999995" green="0.96862745289999996" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <connections>
-                            <outlet property="timer" destination="EUJ-zO-kow" id="wkh-uc-Er2"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="Eei-yC-Sgb"/>
-                    <connections>
-                        <outlet property="imageView" destination="Z7M-gx-rx1" id="GRm-Ue-Tff"/>
-                        <outlet property="timer" destination="EUJ-zO-kow" id="gRM-1j-HY1"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdw-Mn-h31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -410,6 +393,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="wA7-a7-xa3"/>
+        <segue reference="v8C-BU-aj1"/>
         <segue reference="Ie3-6s-8Xm"/>
     </inferredMetricsTieBreakers>
     <resources>
