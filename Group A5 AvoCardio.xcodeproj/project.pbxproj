@@ -26,9 +26,16 @@
 		6464BFFE288751B0000E4510 /* Group_A5_AvoCardioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFFD288751B0000E4510 /* Group_A5_AvoCardioUITests.swift */; };
 		6464C000288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */; };
 		6464C0112887F887000E4510 /* GifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464C0102887F886000E4510 /* GifLoader.swift */; };
+		64E65D1C288A795F004E6D49 /* TimerView2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E65D1B288A795F004E6D49 /* TimerView2ViewController.swift */; };
+		64E65D1E288A7ABA004E6D49 /* situps.gif in Resources */ = {isa = PBXBuildFile; fileRef = 64E65D1D288A7AA8004E6D49 /* situps.gif */; };
+		64E65D1F288A7ABA004E6D49 /* situps.gif in Resources */ = {isa = PBXBuildFile; fileRef = 64E65D1D288A7AA8004E6D49 /* situps.gif */; };
+		64E65D20288A7ABA004E6D49 /* situps.gif in Resources */ = {isa = PBXBuildFile; fileRef = 64E65D1D288A7AA8004E6D49 /* situps.gif */; };
+		64E65D22288A7B10004E6D49 /* pushups.gif in Resources */ = {isa = PBXBuildFile; fileRef = 64E65D21288A7B0F004E6D49 /* pushups.gif */; };
+		64E65D23288A7B10004E6D49 /* pushups.gif in Resources */ = {isa = PBXBuildFile; fileRef = 64E65D21288A7B0F004E6D49 /* pushups.gif */; };
+		64E65D24288A7B10004E6D49 /* pushups.gif in Resources */ = {isa = PBXBuildFile; fileRef = 64E65D21288A7B0F004E6D49 /* pushups.gif */; };
 		9017ACEE2889B80D0031CCC3 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017ACED2889B80D0031CCC3 /* ContentViewModel.swift */; };
 		9017ACF02889B8230031CCC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017ACEF2889B8230031CCC3 /* ContentView.swift */; };
-		9042E2F828875DFD00829D00 /* Untitled_Artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042E2F728875DFC00829D00 /* Untitled_Artwork.png */; };
+		9042E2F828875DFD00829D00 /* weightsStill.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042E2F728875DFC00829D00 /* weightsStill.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +75,12 @@
 		6464BFFD288751B0000E4510 /* Group_A5_AvoCardioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioUITests.swift; sourceTree = "<group>"; };
 		6464BFFF288751B0000E4510 /* Group_A5_AvoCardioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_A5_AvoCardioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6464C0102887F886000E4510 /* GifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoader.swift; sourceTree = "<group>"; };
+		64E65D1B288A795F004E6D49 /* TimerView2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView2ViewController.swift; sourceTree = "<group>"; };
+		64E65D1D288A7AA8004E6D49 /* situps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = situps.gif; sourceTree = "<group>"; };
+		64E65D21288A7B0F004E6D49 /* pushups.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pushups.gif; sourceTree = "<group>"; };
 		9017ACED2889B80D0031CCC3 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		9017ACEF2889B8230031CCC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Group A5 AvoCardio/ContentView.swift"; sourceTree = SOURCE_ROOT; };
-		9042E2F728875DFC00829D00 /* Untitled_Artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled_Artwork.png; sourceTree = "<group>"; };
+		9042E2F728875DFC00829D00 /* weightsStill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightsStill.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,11 +138,14 @@
 				642A6A2E28889EA90073AAEA /* ViewTableViewController.swift */,
 				642A6A34288929820073AAEA /* CustomTableViewCell.swift */,
 				6464BFDF288751A6000E4510 /* Main.storyboard */,
+				64E65D1B288A795F004E6D49 /* TimerView2ViewController.swift */,
 				9017ACEF2889B8230031CCC3 /* ContentView.swift */,
 				9017ACED2889B80D0031CCC3 /* ContentViewModel.swift */,
 				6432211328880059009F755C /* highKneesGif.gif */,
+				64E65D1D288A7AA8004E6D49 /* situps.gif */,
+				64E65D21288A7B0F004E6D49 /* pushups.gif */,
 				6464C0102887F886000E4510 /* GifLoader.swift */,
-				9042E2F728875DFC00829D00 /* Untitled_Artwork.png */,
+				9042E2F728875DFC00829D00 /* weightsStill.png */,
 				6464BFE5288751AE000E4510 /* Assets.xcassets */,
 				6464BFE7288751AE000E4510 /* LaunchScreen.storyboard */,
 				6464BFEA288751AE000E4510 /* Info.plist */,
@@ -262,8 +275,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E65D22288A7B10004E6D49 /* pushups.gif in Resources */,
+				64E65D1E288A7ABA004E6D49 /* situps.gif in Resources */,
 				6464BFE9288751AE000E4510 /* LaunchScreen.storyboard in Resources */,
-				9042E2F828875DFD00829D00 /* Untitled_Artwork.png in Resources */,
+				9042E2F828875DFD00829D00 /* weightsStill.png in Resources */,
 				6432211428880059009F755C /* highKneesGif.gif in Resources */,
 				6464BFE6288751AE000E4510 /* Assets.xcassets in Resources */,
 				6464BFE1288751A6000E4510 /* Main.storyboard in Resources */,
@@ -274,6 +289,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E65D1F288A7ABA004E6D49 /* situps.gif in Resources */,
+				64E65D23288A7B10004E6D49 /* pushups.gif in Resources */,
 				6432211528880059009F755C /* highKneesGif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E65D20288A7ABA004E6D49 /* situps.gif in Resources */,
+				64E65D24288A7B10004E6D49 /* pushups.gif in Resources */,
 				6432211628880059009F755C /* highKneesGif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6464BFE4288751A6000E4510 /* Group_A5_AvoCardio.xcdatamodeld in Sources */,
+				64E65D1C288A795F004E6D49 /* TimerView2ViewController.swift in Sources */,
 				6464BFDE288751A6000E4510 /* ViewController.swift in Sources */,
 				642A6A35288929820073AAEA /* CustomTableViewCell.swift in Sources */,
 				642A6A2F28889EA90073AAEA /* ViewTableViewController.swift in Sources */,
